@@ -1,4 +1,5 @@
 fun main() {
+    data class Rule(val before: Int, val after: Int)
 
     fun part1(input: List<String>): Int {
         val splitIndex = input.indexOfFirst { it.isEmpty() }
@@ -56,4 +57,3 @@ fun main() {
 //    part2(input).println()
 }
 
-data class Rule(val before: Int, val after: Int)
