@@ -7,7 +7,7 @@ fun main() {
             }.first()
             zipWithNext
         }
-
+        return input.size
     }
 
     val testInput = readInput("Day06_test")
